@@ -17,7 +17,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId> 
                 <artifactId>maven-assembly-plugin</artifactId>  
-                <version>3.0.0</version>
+                <version>3.7.1</version>
                 <configuration>
                     <finalName>jMerge</finalName>
                     <archive>
@@ -50,19 +50,19 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.13.1</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-core</artifactId>
-            <version>1.3</version>
+            <version>2.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.2.25</version>
+            <version>42.7.6</version>
         </dependency>
     </dependencies>
 </project>
